@@ -49,20 +49,36 @@ Repository should also contain a README.md with URLs to your API GET & POST meth
 
 Explanation:
 
+POST METHOD:
+
 API POST URL: https://b2ao1jbr3k.execute-api.us-east-1.amazonaws.com/DEV-1/user
+
 Example Body:
 {
     "first_name":"Monk",
     "age":"34"
 }
+
 When POST Method is executed:
 -> I executed the post method through POSTMAN, Lambda text events and in API Gateway Test Module.
+
 Output:
+
+USING POSTMAN:
 ![image](https://github.com/user-attachments/assets/760ad1c7-66df-4969-acf2-ffb456a6f422)
+
+USING LAMBDA TEST EVENT:
 ![image](https://github.com/user-attachments/assets/c98efe40-83cc-4775-a6e4-14757de8c93f)
+
+USING API GATEWAY TEST MODULE:
 ![image](https://github.com/user-attachments/assets/354c4ffe-d5db-4ccb-a5ad-66be50ea42f4)
 
+
+
+GET METHOD:
+
 API GET URL: https://b2ao1jbr3k.execute-api.us-east-1.amazonaws.com/Dev/user/{user_id}
+
 example user_id: 3d29668a-61ee-495c-8a0d-900ec8fcb9a8
 
 Example body:
@@ -72,12 +88,22 @@ Example body:
   }
 }
 
-When GET Method id executed:
+When GET Method is executed:
+
 -> I executed the get method through browser, POSTMAN, Lambda text event and in API Gateway Test Module.
+
 Output:
+
+USING BROWSER:
 ![image](https://github.com/user-attachments/assets/ea618741-0f83-4667-b4c3-5e11992991eb)
+
+USING POSTMAN:
 ![image](https://github.com/user-attachments/assets/ae126451-c8e8-4fa7-a7c6-4a81fc3191b0)
+
+USING LAMBDA TEST EVENT:
 ![image](https://github.com/user-attachments/assets/5f21e5e4-0bfe-40ee-af67-8847631cbbbf)
+
+USING API GATEWAY TEST MODULE:
 ![image](https://github.com/user-attachments/assets/d86d4379-7292-412e-a805-260ec5224a6f)
 
 
