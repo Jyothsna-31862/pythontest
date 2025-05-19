@@ -65,13 +65,20 @@ When POST Method is executed:
 Output:
 
 USING POSTMAN:
+
 ![image](https://github.com/user-attachments/assets/760ad1c7-66df-4969-acf2-ffb456a6f422)
 
-USING LAMBDA TEST EVENT:
+
+USING API GATEWAY TEST MODULE: 
+
 ![image](https://github.com/user-attachments/assets/c98efe40-83cc-4775-a6e4-14757de8c93f)
 
-USING API GATEWAY TEST MODULE:
+
+USING LAMBDA TEST EVENT:
+
 ![image](https://github.com/user-attachments/assets/354c4ffe-d5db-4ccb-a5ad-66be50ea42f4)
+
+
 
 
 
@@ -95,15 +102,22 @@ When GET Method is executed:
 Output:
 
 USING BROWSER:
+
 ![image](https://github.com/user-attachments/assets/ea618741-0f83-4667-b4c3-5e11992991eb)
 
+
 USING POSTMAN:
+
 ![image](https://github.com/user-attachments/assets/ae126451-c8e8-4fa7-a7c6-4a81fc3191b0)
 
+
 USING LAMBDA TEST EVENT:
+
 ![image](https://github.com/user-attachments/assets/5f21e5e4-0bfe-40ee-af67-8847631cbbbf)
 
+
 USING API GATEWAY TEST MODULE:
+
 ![image](https://github.com/user-attachments/assets/d86d4379-7292-412e-a805-260ec5224a6f)
 
 
