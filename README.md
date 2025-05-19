@@ -3,20 +3,28 @@
 ## Basic knowledge questions
 
 - What is \_\_main\_\_.py used for?
+- Answer: When a python project runs, then the "main.py" files runs first.The compiler first invokes this method because this main.py file consists of all remaning module function calls. 
 
 - How to prevent python module code from executing when the module is imported?
+- Answer: We can prevent python module code from executing by not including the module in " if __name__ == "__main__"  " block, even if it is imported.
 
 - What's the name of method that represents a class constructor in Python?
+- Answer: The name of method is __init__ .
 
 - What options do you have when you need to insert value of a variable into string? Name at least three.
-
+- Amswer: The options are .format(), % and f-strings
+  
 - How can you truly restrict access to a private method of a class in Python?
+- Answer: By declaring the method like this -> def __private_method(self), by adding two underscores we can restrict access to private method of a class.
 
 - What Python feature would you use to add some functionalities to an existing function without interfering into its code?
+- Answer: By using Higher-order functions where a fucntion takes another fucntion as an argument then adds fucntionality.
 
 - How is @staticmethod different from @classmethod?
+- Answer: The @staticmethod cannot access the class level data but @classmethod can access the class level data.
 
 - What is the advantage of using **with** keyword when reading/writing a file in Python?
+- Answer: The advanatge of using "with" keyword is the file will be automatically closed once the read/write operation is done.
 
 ## Problem solving
 
