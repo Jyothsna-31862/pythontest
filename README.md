@@ -33,6 +33,8 @@
 - Currently, number of created people is printed at the beginning. Please implement some improvements, so that number of people created is printed always at the very end (without using time.sleep).
 - You are not allowed to interfere into **introduce** method code.
 
+  Answer: Updated the code in problem_solving1.py
+
 ## Create something whilst learning something new
 For this task you will need your personal account in AWS. Please create one if you don't have it yet (do not worry about costs, everything you do here will covered by AWS Free Tier).
 
